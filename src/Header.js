@@ -18,7 +18,7 @@ export default function Header() {
             <SearchIcon />
         </div>
         <div className='header_right'>
-            <p>Become a Host</p>
+            <p>Become a Host/Owner</p>
             <LanguageIcon />
             <ExpandMoreIcon />
             <Avatar />
