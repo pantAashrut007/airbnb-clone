@@ -23,9 +23,9 @@ export default function Search() {
     }
 
   return (
-    <div>
+    <div className='Search'>
       <DateRangePicker ranges={[selectionRange]} onChange={handleSelect}></DateRangePicker>
-      <h2>Number of guests<PeopleIcon></PeopleIcon></h2>
+      <h2>Number of guests<PeopleIcon /></h2>
       <input min={0} max={2} type='text'></input>
       <Button>Search AirBnB</Button>
     </div>
